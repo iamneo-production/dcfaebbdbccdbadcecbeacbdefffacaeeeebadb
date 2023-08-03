@@ -2,7 +2,7 @@ import React from 'react';
 import './style.css';
 import UrlValidator from './components/UrlValidator/UrlValidator';
 
-function MyPage() {
+function App() {
   return (
     <div style={{textalign:"center"}}>
       <h1 >Url Validator</h1>
@@ -11,4 +11,4 @@ function MyPage() {
   );
 }
 
-export default MyPage;
+export default App;
